@@ -1,0 +1,427 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    /* text-align: center; */
+}
+
+/* nav */
+.navigation{
+    width: 95vw;
+    margin-top: 20px;
+    margin-left: 15Px;
+}
+.logo{
+    width: 200px;
+}
+.mainbar{
+    display: flex;
+}
+
+#centerhead{
+    display: flex;
+    justify-content: center;
+    width: 2000vw;
+    justify-content: space-evenly;
+}
+.switch{
+    display: flex;
+    /* justify-content: flex-end; */
+    
+}
+button{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: space-evenly;
+    width: 3000px;
+}
+.githublogo{
+    margin-top:10px ;
+    width: 30px;
+    height: 30px;
+}
+.whatsapplogo{
+    margin-top:10px ;
+    width: 30px;
+    height: 30px
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s ease-out 0.5ms;
+}
+/* Stack 1 */
+.stack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;  
+    width: 1200px;
+
+}
+
+.Rajab{
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    width: 600px;
+    height:300px;
+    border-radius: 20px;
+    transition: background-color 0.5s ease-out 0.5ms;
+    transition: box-shadow 0.5s ease-out 0.5ms;
+    /* margin-top: 50px;   */
+    /* padding: 10px; */
+    /* padding-top:60px; */
+
+}
+
+.Rajab:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 2px #48abe0;
+}
+.Image{
+    width: 240px;
+    height: 210px;
+    border-radius: 15%;
+    margin: 20px;
+    display: flex;
+    
+    padding: 20px;       
+}
+.First-line{
+    margin-top: 60px;
+    text-transform: uppercase;
+    
+}
+.graphic{
+    color: rgb(112, 112, 112);
+}
+
+/* credentials */
+
+.achievements{
+    height:300px;
+    width: 250px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    justify-self: center;
+    transition: background-color 0.5s ease-out 0.5ms;
+    transition: box-shadow 0.5s ease-out 0.5ms;
+
+   
+}
+.achievements:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 2px #48abe0;
+
+}
+
+
+#sign{
+    width: 170px;
+    height: 130px;
+    /* margin-top: 50px; */
+    
+    
+    margin-left: 30px;
+    margin-top: 40px  
+}
+.text2{
+    margin-left: 20px;
+    margin-top: 60px;
+    line-height: 3px;
+}
+.more{
+    color: rgb(112, 112, 112);
+}
+.credentials{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+/* Credentials */
+.Project-bar{
+    height:300px;
+    width: 250px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+    transition: background-color 0.5s ease-out 0.5ms;
+    transition: box-shadow 0.5s ease-out 0.5ms;
+
+
+}
+.Project-bar:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 2px #48abe0;
+
+}
+
+
+.macbook{
+    width: 210px;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+.text3{
+    margin-left: 20px;
+    margin-top: 65px;
+    line-height: 3px;
+}
+
+.showcase{
+    color: rgb(112, 112, 112);
+}
+.project{
+    font-weight: bold;
+    font-size: x-large;
+   
+
+}
+
+
+
+
+/* STACK 2 */
+
+#secondrow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#stacktwo{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 30px;
+    
+
+}
+
+
+/* linked in */
+.profiles{
+    height:280px;
+    width: 250px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+    transition: background-color 0.5s ease-out 0.5ms;
+    transition: box-shadow 0.5s ease-out 0.5ms;
+
+
+}
+.profiles:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 2px #48abe0;
+
+}
+
+
+
+.linkedin{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.text1d{
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 3px;
+
+}
+
+.Connect{
+    color: rgb(112, 112, 112);
+}
+.Socials{
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+/* download cv */
+
+.download{
+    height:280px;
+    width: 250px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+    transition: background-color 0.5s ease-out 0.5ms;
+    transition: box-shadow 0.5s ease-out 0.5ms;
+
+
+}
+
+.download:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 2px #48abe0;
+
+}
+
+.imagedownload{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.text2d{
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 3px;
+}
+.downloadtext{
+    color: rgb(112, 112, 112);
+}
+.CV{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* services offering */
+
+.services{
+    background-color: rgb(28, 28, 28);
+    width: 600px;
+    height:280px;
+    border-radius: 20px;
+    transition: background-color 0.5s ease-out 0.5ms;
+    transition: box-shadow 0.5s ease-out 0.5ms;
+
+  
+}
+.services:hover{
+    /* border: 2px dotted white; */
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 2px #48abe0;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-top: 70px;
+    
+}
+
+#imageicon{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text2d1{
+    margin-left: 20px;
+    margin-top: 80px;
+    line-height: 3px;
+}
+
+.specialization{
+    color: rgb(112, 112, 112);
+}
+
+.offering{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+.texts{
+    transition: background-color 0.2s ease-out 0.2ms;
+    padding: 5px;
+    border-radius:10px ;
+}
+.texts:hover{
+    background-color: rgb(45, 44, 44);
+    box-shadow: 0 0 30px 2px #48abe0;
+
+}
+
+footer{
+    text-align: center;
+    
+}
+.footext{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: smaller;
+    color: rgb(69, 68, 68);
+}
+.footend{
+    margin-top: 70px;
+    width:50px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width:600px) { */
+    
+    /* .Rajab{
+        width: 350px;
+        height: 500px;
+    } */
+
+
+    /* .First-line{ */
+        /* color: rgb(28, 28, 28);   */
+    /* } */
+    /* .text1{ */
+       /* margin-left: -220px; 
+       margin-top: 200px;
+         */
+         /* text-align: center; */
+    /* } */
+    /* .all{ */
+        /* display: block; */
+        /* align-content: center; */
+    /* } */
+    /* } */
+

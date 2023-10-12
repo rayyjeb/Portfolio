@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+    color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center}
+
+.navigation{
+    width: 95vw;
+    margin-top: 20px;
+    margin-left: 15Px;
+}
+.logo{
+    width: 200px;
+}
+.mainbar{
+    display: flex;
+}
+
+#centerhead{
+    display: flex;
+    justify-content: center;
+    width: 2000vw;
+    justify-content: space-evenly;
+}
+.switch{
+    display: flex;
+    /* justify-content: flex-end; */
+    
+}
+button{
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: space-evenly;
+    width: 3000px;
+}
+.githublogo{
+    margin-top:10px ;
+    width: 30px;
+    height: 30px;
+}
+.whatsapplogo{
+    margin-top:10px ;
+    width: 30px;
+    height: 30px
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s ease-out 0.5ms;
+}
+/* Stack 1 */
+.stack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;  
+    width: 1200px;
+
+}
+
+.rajabcard{
+    width: 450px;
+    height: 420px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: block;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 0 30px 2px #48abe0;
+   
+    /* position: relative; */
+}
+
+
+.rajabimage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display:block;
+    justify-self: center;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-left: 130px;
+ 
+    
+}
+h2{
+    display: flex;
+    justify-self: flex-start;
+}
+.blockabout{
+    font-size: large;
+    font-family:cursive;
+    height: 380px;
+    margin-top: 50px;
+    width:800px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color: rgb(28, 28, 28);
+    margin-left: 550px;
+    border-radius:20px;
+    text-align: justify;
+    line-height: 30.5px;
+}
+
+.awards{
+    font-size: large;
+    font-family:cursive;
+    height: 380px;
+    margin-top: 50px;
+    width:800px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color: rgb(28, 28, 28);
+    margin-left: 550px;
+    border-radius:20px;
+    text-align: justify;
+    line-height: 30.5px;
+}
